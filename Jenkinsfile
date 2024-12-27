@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Fetch Code'){
             steps {
-                git branch: 'docker', url: 'https://github.com/darvin00/guvi_task.git' 
+                git branch: 'docker', url: 'https://github.com/infratute/baseline-vprofile-project-complete.git' 
             }
         }
         stage('Build') {
