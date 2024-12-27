@@ -1,4 +1,25 @@
-# docker-jenkins-integration-sample
+# Prerequisites
+#
+- JDK 1.8 or later
+- Maven 3 or later
+- MySQL 5.6 or later
 
-###### Docker [Playlist](https://www.youtube.com/watch?v=Tg2krHXHzBc&list=PLVz2XdJiJQxzMiFDnwxUDxmuZQU3igcBb).
-###### Jenkins [Playlist](https://www.youtube.com/watch?v=Nw3UohhcPO0&list=PLVz2XdJiJQxwS0BZUHX34ocLTJtRGSQzN).
+# Technologies 
+- Spring MVC
+- Spring Security
+- Spring Data JPA
+- Maven
+- JSP
+- MySQL
+# Database
+Here,we used Mysql DB 
+MSQL DB Installation Steps for Linux ubuntu 14.04:
+- $ sudo apt-get update
+- $ sudo apt-get install mysql-server
+
+Then look for the file :
+- /src/main/resources/accountsdb
+- accountsdb.sql file is a mysql dump file.we have to import this dump to mysql db server
+- > mysql -u <user_name> -p accounts < accountsdb.sql
+
+
